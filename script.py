@@ -91,5 +91,12 @@
 #     except:
 #         print("Numero no válido, repítelo.")
 
-import matematicas
-print(matematicas.sumar(5, 3))  # Llamada a la función sumar del módulo matematicas
+# import matematicas
+# print(matematicas.sumar(5, 3))  # Llamada a la función sumar del módulo matematicas
+
+# from modulos import matematicas
+# print(matematicas.sumar(10, 20))  # Llamada a la función sumar del módulo matematicas
+
+from modulos import saludos
+print(saludos.saludar("Oscar"))  # Llamada a la función saludar
+print(saludos.despedir("Pepe"))  # Llamada a la función despedir
