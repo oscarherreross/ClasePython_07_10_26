@@ -1,0 +1,6 @@
+# Archivos que genera Python al ejecutar o importar código
+__pycache__/
+*.pyc
+
+# Caché de pytest
+.pytest_cache/
